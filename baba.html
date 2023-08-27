@@ -8,6 +8,7 @@
     <title>baba</title>
     <link rel="stylesheet" type="text/css" href="baba.css">
 </head>
+
 <body>
     <header>
       <div class="d-flex mb-3" id="na1">
@@ -17,7 +18,7 @@
       </div>
 
       <!-- navbar -->
-        <nav class="d-flex mb-3" id="na2" >
+        <nav class="d-flex mb-3" id="na2" aria-label="">
             <div class="p-2"><img src="lg.png" alt="YOUR LOGO" width="250" height="100"></div>
             <div class="ms-auto p-2">
                 <ol class="nav justify-content-end" id="nbtit">
@@ -27,7 +28,7 @@
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">TITLE 2</a>
                       <ol class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./redir.html">SUBMENU 1</a></li>
+                        <li><a class="dropdown-item" href="./redir_2.html">SUBMENU 1</a></li>
                         <li><a class="dropdown-item" href="./redir.html">SUBMENU 2</a></li><legend></legend>
                         <li><a class="dropdown-item" href="./redir.html">SUBMENU 3 </a></li>
                         <li><a class="dropdown-item" href="./redir.html">SUBMENU 4</a>
@@ -53,26 +54,26 @@
     </header>
     
     <!-- breadcrum -->
-    <section id="bredcrum" aria-label="breadcrumb">
+    <section id="bredcrum">
       <div class="container-fluid">
         <div class="container">
           <div class="row">
-            <div class="col-md-12" id="brdcrm">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="./redir_1.html">TITLE 1</a></li>
-                <li class="breadcrumb-item"><a href="./redir_2.html">TITLE 2</a></li>
-                <li class="breadcrumb-item"><a href="./redir_3.html">TITLE 3</a></li>
-                <li class="breadcrumb-item"><a href="./redir_4.html">TITLE 4</a></li>
-                <li class="breadcrumb-item"><a href="./redir_5.html">TITLE 5</a></li>
-                <li class="breadcrumb-item"><a href="./redir_6.html">TITLE 6</a></li>
-                <li class="breadcrumb-item active"><a href="#">CONTACT US</a></li>
-  
-              </ol>
-            </div>
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./redir_1.html">TITLE 1</a></li>
+                    <li class="breadcrumb-item"><a href="./redir_2.html">TITLE 2</a></li>
+                    <li class="breadcrumb-item"><a href="./redir_3.html">TITLE 3</a></li>
+                    <li class="breadcrumb-item"><a href="./redir_4.html">TITLE 4</a></li>
+                    <li class="breadcrumb-item"><a href="./redir_5.html">TITLE 5</a></li>
+                    <li class="breadcrumb-item"><a href="./redir_6.html">TITLE 6</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">CONTACT US</li>
+                  </ol>
+                </nav>
           </div>
         </div>
       </div>
     </section>
+
 
     <section id="sol1">
       <h2>Contact Us</h2>

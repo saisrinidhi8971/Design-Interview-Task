@@ -17,7 +17,7 @@
         </div>
   
         <!-- navbar -->
-        <nav class="d-flex mb-3" id="na2" >
+        <nav class="d-flex mb-3" id="na2" aria-label="">
           <div class="p-2"><img src="lg.png" alt="YOUR LOGO" width="250" height="100"></div>
           <div class="ms-auto p-2">
               <ol class="nav justify-content-end" id="nbtit">
@@ -51,23 +51,28 @@
           </div>
       </nav>
       </header>
-
-      <section id="bredcrum">
+      
+    <section id="bredcrum">
         <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12" id="brdcrm">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item "><a href="./redir_1.html">TITLE 1</a></li>
-                  <li class="breadcrumb-item"><a href="./redir_2.html">TITLE 2</a></li>
-                  <li class="breadcrumb-item active"><a href="#">TITLE 3</a></li>
-
-                </ol>
-              </div>
+            <div class="container">
+                <div class="row">
+                    <nav class="col-md-12" id="brdcrm" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a href="./redir_1.html">TITLE 1</a></li>
+                            <li class="breadcrumb-item"><a href="./redir_2.html">TITLE 2</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">TITLE 3</li>
+                        </ol>
+                    </nav>
+                </div>
             </div>
-          </div>
         </div>
+    </section>
+
+    <section id="sol1">
+        <h2>Title 3 page</h2>
+        <p class="text-break">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Error nemo quam rem voluptate facere pariatur earum, nisi blanditiis molestias autem fuga, exercitationem animi ipsa laborum dolorum? Magni aperiam culpa deserunt.</p>
       </section>
+      <br><br>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

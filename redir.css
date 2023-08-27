@@ -58,8 +58,24 @@
     font-weight: bold;
     color: black;
   }
-  #nbtit a:hover{
+#nbtit a:hover{
     font-weight: bold;
     text-decoration: underline solid rgb(252, 113, 63);
     text-decoration-thickness: 5px;  
+}
+
+/*Breadcrum*/ 
+ol li a{
+    text-decoration: none;
+    
+  }
+
+  /*solution content*/
+#sol1{
+    word-wrap: break-word;
+    padding: 0px 70px 0px 70px;
+    margin: 15px;
+  }
+  #sol1 h2{
+    color:rgb(252, 113, 63) ;
   }
