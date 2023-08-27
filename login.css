@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.dropdown-menu li{
+  position: relative;
+}
+.dropdown-menu .submenu{
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu>li:hover>.submenu{
+  display: block;
+}
+
+#na2{
+  padding: 30px;
+  background-color:aliceblue;
+}
+
+/*above navbar section log/sign*/
+#na1{
+  background-color:rgb(252, 113, 63);
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+#na1 a{
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+
+}
+#na1 a:hover{
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(98, 98, 98);
+
+}
+#na1 p{
+  font-weight: bold;
+  color: whitesmoke;
+
+}
+#na1 p:hover{
+  font-weight: bold;
+  color: rgb(98, 98, 98);
+}
+
+
+/*navbar tab names*/
+#nbtit a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  #nbtit a:hover{
+    font-weight: bold;
+    text-decoration: underline solid rgb(252, 113, 63);
+    text-decoration-thickness: 5px;  
+  }
+
+  #loginfo{
+    padding: 20px;
+    margin: 15px 500px 15px 500px;
+  }
+
+  #sol1{
+    word-wrap: break-word;
+  }
+  #sol1 h2{
+    color:rgb(252, 113, 63) ;
+  }
