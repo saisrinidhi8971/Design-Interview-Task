@@ -14,8 +14,6 @@ This project was created as part of a design interview task assigned by unbrande
 - CSS
 - Bootstrap
 
-## Why Bootstrap?
-
 In order to streamline the development process and meet the project deadline effectively, the decision was made to leverage the Bootstrap framework. Bootstrap provides a collection of responsive design components and pre-styled elements that significantly expedited the UI design process. This allowed for rapid prototyping and ensured that the project adhered to modern design standards.
 
 ## Approach
